@@ -11,5 +11,5 @@ def uppercase(str):
         print("{:c}"
               .format(ord(c) if not islower(c) else ord(c) - 32),
               end="")
-        print("")
+    print("")
 
