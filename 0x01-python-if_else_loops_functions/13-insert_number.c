@@ -1,10 +1,10 @@
 #include "lists.h"
 #include <stdlib.h>
 /**
-  * insert_node - inserts node
-  * @head: address of head pointer
-  * @number: number to insert
-  * Return: inserted node
+* *insert_node - inserts node
+* @head: address of head pointer
+* @number: number to insert
+* Return: inserted node
 */
 listint_t *insert_node(listint_t **head, int number)
 {
@@ -19,11 +19,13 @@ new->next = node;
 return (*head = new);
 }
 while (node)
+{
 if (!node->next || new->n < node->next->n)
+{
 new->next = node->next;
 node->next = new;
-{
 return (node);
+}
 node = node->next;
 }
 return (NULL);
