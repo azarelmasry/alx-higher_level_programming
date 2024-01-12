@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 """
- Init link class to table in database as user
+ Init link class to table in database 
 """
 
 import sys
