@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 """
-    The first State object from hbtn_0e_6_usa
+    A script that returns the first State object from hbtn_0e_6_usa
     Username, password and dbname wil be passed as arguments to the script.
 """
 
